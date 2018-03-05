@@ -22,7 +22,7 @@ print('Hello, World')
 #
 #   Run this module by right clicking anywhere in this window and selecting
 #        Run 'name of file'
-#   Or, use the keyboard shortcut:  Control + Shift + F10
+#   Or, use the keyboard shortcut:  Control + Shift + Function-F10
 #
 #   After running, find the Run window (to the right) and confirm that
 #        Hello, World

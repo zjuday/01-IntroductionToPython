@@ -6,8 +6,9 @@
 #   Then run this module by right clicking anywhere in this window
 #   and then selecting:
 #        Run 'name of file'
-#   Or, use the keyboard shortcut:  Control + Shift + F10
-#   (That is, hold the Control and Shift keys down and press the F10 key.)
+#   Or, use the keyboard shortcut:  Control + Shift + Function-F10
+#   (That is, hold the Control, Shift and Function keys down
+#   and press the F10 key.)
 #
 #   Confirm that you see the output in the  "Run"  window (to the right).
 #   Confirm that the output is what you expected, asking questions as desired.
