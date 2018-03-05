@@ -58,12 +58,12 @@ import rosegraphics as rg
 #     -- CONSTRUCTING an instance of a CLASS, e.g.
 #           rg.SimpleTurtle()
 #     -- ASSIGNING the resulting OBJECT (instance of a class) a NAME, e.g.
-#           dave = rg.SimpleTurtle()
+#           natasha = rg.SimpleTurtle()
 #     -- Applying a METHOD to an object to make the object DO something, e.g.
-#           dave.forward(100)
+#           natasha.forward(100)
 #     -- Accessing an INSTANCE VARIABLE of an object, e.g.
-#           dave.speed = 10
-#           print(matt.speed)
+#           natasha.speed = 10
+#           print(boris.speed)
 #
 #   After you are confident that you understand all the code below,
 #   change this TO-DO to DONE and  ** continue to the next TOD-DO (below). **
@@ -122,7 +122,7 @@ natasha.forward(50)
 # TODO: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
-#       dave    matt
+#       boris    natasha
 #
 #   Add code of your own that constructs another SimpleTurtle object,
 #   naming it whatever you want.  Names cannot have spaces or special
