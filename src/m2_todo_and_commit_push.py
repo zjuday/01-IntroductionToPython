@@ -86,11 +86,9 @@ print('Hello, World')
 #
 # TODO: 5.
 #   Look at the list of files in the Project window (to the left).  Note that
-#   this file (m2_hello_world.py) is now displayed in a blue font color.
-#     - Clicking on a different file makes it easier to see
-#       the blue font color of this file.
+#   this file (m2_todo_and_commit_push.py) is now displayed in BLUE.
 #
-#   The blue font color means that you have made changes to this file which
+#   The BLUE font color means that you have made changes to this file which
 #   have not yet been COMMITTED to version control and PUSHED to the cloud.
 #
 #   COMMIT and PUSH your work by:

@@ -101,7 +101,9 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
+natasha.write_text()
 
+natasha.go_to()
 
 ###############################################################################
 #

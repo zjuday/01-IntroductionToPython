@@ -5,7 +5,7 @@
 #
 #   Then run this module by right clicking anywhere in this window
 #   and then selecting:
-#        Run 'name of file'
+#        Run 'name of file'      (i.e.  Run 'm1e_comments_strings...')
 #   Or, use the keyboard shortcut:  Control + Shift + Function-F10
 #   (That is, hold the Control, Shift and Function keys down
 #   and press the F10 key.)
