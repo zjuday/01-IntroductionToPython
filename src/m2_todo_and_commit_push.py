@@ -1,6 +1,5 @@
 print('Hello, World')
 
-
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -108,8 +107,9 @@ print('Hello, World')
 #
 #   In this course, you will always want to COMMIT-and-PUSH ALL your changed
 #   files, so you can safely leave the check marks unchanged in the pop-up
-#   window.  You can optionally add a quick  Commit  message to describe your
-#   work, but that will not be important until you work with teammates.
+#   window.  PyCharm forces you to add a quick  Commit  message intended
+#   to describe your work to teammates, but until your team project
+#   use   Done  or whatever you want for the  Commit  message.
 #
 #   Oh, one more thing:
 #     Do you have any blue bars on the scrollbar-like thing to the right?
