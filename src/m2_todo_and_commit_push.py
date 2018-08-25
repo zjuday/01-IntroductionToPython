@@ -102,14 +102,14 @@ print('Hello, World')
 #   COMMIT adds the changed work to the version control on your computer
 #   and PUSH adds the changed work into your Github repository in the "cloud".
 #
+#   PyCharm forces you to add a  Commit  message intended to describe
+#   your work to teammates, but until your team project use   Done
+#   or whatever you want for the  Commit  message.
+#
 #   Always PUSH (in addition to the COMMIT) so that your work is backed-up
 #   in the cloud, and also so that your instructor can access it as needed.
-#
-#   In this course, you will always want to COMMIT-and-PUSH ALL your changed
-#   files, so you can safely leave the check marks unchanged in the pop-up
-#   window.  PyCharm forces you to add a quick  Commit  message intended
-#   to describe your work to teammates, but until your team project
-#   use   Done  or whatever you want for the  Commit  message.
+#   If you COMMIT but forget to PUSH, you can subsequently do the PUSH by:
+#      VCS ~ Git ~ Push...
 #
 #   Oh, one more thing:
 #     Do you have any blue bars on the scrollbar-like thing to the right?
