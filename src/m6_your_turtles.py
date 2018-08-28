@@ -1,7 +1,7 @@
 """
 Your chance to explore Loops and Turtles!
 
-Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
+Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
          their colleagues and PUT_YOUR_NAME_HERE.
 """
 ###############################################################################

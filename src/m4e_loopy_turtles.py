@@ -39,7 +39,7 @@ Concepts include:
         rg.Pen().
         rg.PaintBucket().
 
-Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
+Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
          and their colleagues.
 """
 import rosegraphics as rg
