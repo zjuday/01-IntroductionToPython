@@ -101,9 +101,8 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
-natasha.write_text()
 
-natasha.go_to()
+natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
