@@ -16,7 +16,7 @@ print(answer * 100)
 #   Make sure that you understand that those two lines do the above,
 #     ** ASKING QUESTIONS AS NEEDED. **
 #   Once you completely understand the above, run this module,
-#   confirming that it prints 400.  Then change the above _TODO_ to DONE.
+#   confirming that it prints 3200.  Then change the above _TODO_ to DONE.
 ###############################################################################
 
 ###############################################################################
@@ -40,10 +40,11 @@ print(answer * 100)
 
 ###############################################################################
 # TODO: 4.
-#   Compute the square root of 2 in two ways:
+#   Immediately below this _TODO_,
+#   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
 #     - By raising 2 to the 0.5 power (using   **   for exponentiation).
-#   Print both expressions.
+#   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
@@ -65,19 +66,26 @@ print(answer * 100)
 #       print(type(3.14))
 #   will print     <class 'float'>
 #   Try it now!
-#   (Just enter   print(type(3.14))   below and run the program.)
+#   (Just write   print(type(3.14))   below this _TODO_ and run the program.)
 #
-#   Then write more code of the form   print(type(BLAH))
-#   to determine the type of each of the following objects:
+#   Now go through the BLAH objects listed below.  For each:
+#      -- Try to GUESS its TYPE.
+#      -- Write code of the form   print(type(BLAH)).
+#      -- RUN the code to LEARN its TYPE.
+
 #       "hello"
 #       'hello'
 #       "a b c"
-#       "3 + 3"
 #       3 + 3
 #       "3" + "3"
 #       2 ** 100
 #       2.0 ** 100
 #       math.sin(8)
 #       math.sin
-#   Run your code (see what is printed!), then change the above _TODO_ to DONE.
+#       print
+#       math
+#       'math'
+#
+# After you have written and run the code to learn the TYPE
+# of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
