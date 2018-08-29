@@ -11,8 +11,15 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 
 ########################################################################
 # TODO: 2.
-#   Write code that constructs a SimpleTurtle with a red Pen
-#   and makes it move around a bit.  Don't forget to:
+#   Write code that:
+#     - constructs a SimpleTurtle with a  blue  Pen
+#     - makes the SimpleTurtle go straight up 200 pixels
+#     - tells the SimpleTurtle to move the PEN up.
+#     - tells the SimpleTurtle to jump to (100, -40)
+#     - tells the SimpleTurtle to move the PEN down.
+#     - tells the SimpleTurtle to move straight right 300 pixels.
+#
+# Don't forget to:
 #     -- import rosegraphics and construct a TurtleWindow
 #          at the BEGINNING of your code, and to
 #     -- ask your TurtleWindow to   close_on_mouse_click
