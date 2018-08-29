@@ -11,7 +11,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 
 ###############################################################################
 # TODO: 2.
-#   You should have RUN the  m4e_loopy_turtles  module and READ its code.
+#   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
 #   Below this comment, add ANY CODE THAT YOU WANT, as long as:
