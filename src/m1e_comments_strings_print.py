@@ -1,12 +1,14 @@
 ###############################################################################
 #
+#   Do this WITH YOUR INSTRUCTOR (live in class):
+#
 #   Read the code below.  Predict (in your head) what will get printed
 #   (i.e., displayed) when the code runs.
 #
 #   Then run this module by right clicking anywhere in this window
 #   and then selecting:
 #        Run 'name of file'      (i.e.  Run 'm1e_comments_strings...')
-#   Or, use the keyboard shortcut:  Control + Shift + Function-F10
+#   Or, use the Windows keyboard shortcut:  Control + Shift + Function-F10
 #   (That is, hold the Control, Shift and Function keys down
 #   and press the F10 key.)
 #
