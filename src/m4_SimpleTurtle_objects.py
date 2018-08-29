@@ -39,11 +39,10 @@ import rosegraphics as rg
 #
 #   You will see that  rosegraphics  in the  import  statement above (line 28)
 #   is no longer marked as an error.  You will do this
-#      Select the  src  folder, then  Mark Directory As ~ Sources Root
 #   in all projects that use rosegraphics, so get used to it. :)
 #
-#   Once  rosegraphics  in the  import  statement is no longer marked
-#   as an error, change the above TO-DO to DONE and coninue to the next TO-DO.
+#   Once  rosegraphics  in the  import  statement is no longer marked as error,
+#   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
 ###############################################################################
 
@@ -63,36 +62,41 @@ import rosegraphics as rg
 #           natasha.forward(100)
 #     -- Accessing an INSTANCE VARIABLE of an object, e.g.
 #           natasha.speed = 10
-#           print(boris.speed)
+#           boris.speed = natasha.speed
 #
 #   After you are confident that you understand all the code below,
-#   change this TO-DO to DONE and  ** continue to the next TOD-DO (below). **
+#   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
 ###############################################################################
 
 # -----------------------------------------------------------------------------
-# CONSTRUCT (make) a   TurtleWindow   object and set it up for animation.
-# The definition of a  TurtleWindow  is in the   rg  (shorthand for
-# rosegraphics) module.
+# The next few lines show how to:
+#   - CONSTRUCT (make and initialize) a   TurtleWindow   object for animation.
+# The definition of a  TurtleWindow  is in the   rg
+# (shorthand for rosegraphics) module.
 # -----------------------------------------------------------------------------
 window = rg.TurtleWindow()
 window.delay(20)  # Bigger numbers mean slower animation.
 
 # -----------------------------------------------------------------------------
-# CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
+# The next few lines show how to:
+#   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
 boris = rg.SimpleTurtle()
 
 # -----------------------------------------------------------------------------
-# Ask the SimpleTurtle object to do things by applying METHODs to it:
+# The next few lines show how to:
+#   - Ask the SimpleTurtle object to do things by applying METHODs to it.
+# The numbers in the parentheses are called ARGUMENTS.
 # -----------------------------------------------------------------------------
 boris.forward(100)
 boris.left(90)
 boris.forward(200)
 
 # -----------------------------------------------------------------------------
-# Construct a second SimpleTurtle,
-# set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
+# The next few lines show how to:
+#   - Construct a second SimpleTurtle,
+#     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
 natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
@@ -102,12 +106,13 @@ natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
 
+natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
 # TODO: 4.
-#   Add a few more line of your own code to make one of the
+#   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
 #
@@ -133,7 +138,7 @@ natasha.go_to(rg.Point(-100, 200))
 #   STYLE RULE: Your names should always begin with a LOWER_CASE letter.
 #   So   mary   is OK but   Mary   is NOT OK.
 #
-#   Then add a few more lines that:
+#   Then add more code that:
 #     -- Constructs a Pen object,
 #     -- assigns your SimpleTurtle's  pen  to the constructed Pen object, and
 #     -- makes your SimpleTurtle move around a bit.
