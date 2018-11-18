@@ -12,7 +12,7 @@ Also:
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
          their colleagues and PUT_YOUR_NAME_HERE.
 """
-###############################################################################
+########################################################################
 #
 # TODO: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
@@ -23,11 +23,11 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #   It documents what this module does, in a way that exterior programs
 #   can make sense of.  It has no other effect on this program.
 #
-###############################################################################
+########################################################################
 
 import rosegraphics as rg
 
-###############################################################################
+########################################################################
 #
 # TODO: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
@@ -44,9 +44,9 @@ import rosegraphics as rg
 #   Once  rosegraphics  in the  import  statement is no longer marked as error,
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
-###############################################################################
+########################################################################
 
-###############################################################################
+########################################################################
 #
 # TODO: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
@@ -67,7 +67,7 @@ import rosegraphics as rg
 #   After you are confident that you understand all the code below,
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
-###############################################################################
+########################################################################
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -109,7 +109,7 @@ natasha.forward(50)
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
-###############################################################################
+########################################################################
 #
 # TODO: 4.
 #   Add a few more lines of your own code to make one of the
@@ -121,9 +121,9 @@ natasha.go_to(rg.Point(-100, 200))
 #
 #   As always, test by running the module.
 #
-###############################################################################
+########################################################################
 
-###############################################################################
+########################################################################
 #
 # TODO: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
@@ -148,9 +148,9 @@ natasha.go_to(rg.Point(-100, 200))
 #
 #   As always, test by running the module.
 #
-###############################################################################
+########################################################################
 
-###############################################################################
+########################################################################
 #
 # TODO: 6.
 #   Run one more time to be sure that all is still OK.
@@ -166,11 +166,11 @@ natasha.go_to(rg.Point(-100, 200))
 #
 #   You can COMMIT-and-PUSH as often as you like.  DO IT FREQUENTLY.
 #
-###############################################################################
+########################################################################
 
-# -----------------------------------------------------------------------------
+# ----------------------------------------------------------------------
 # The next line keeps the window open until the user clicks in the window.
 # Throughout this exercise, this  close_on_mouse_click   line should be the
 # LAST line in the file.  DO NOT ADD CODE BELOW THIS LINE!
-# -----------------------------------------------------------------------------
+# ----------------------------------------------------------------------
 window.close_on_mouse_click()

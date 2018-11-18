@@ -2,8 +2,8 @@
 #
 #   Do this WITH YOUR INSTRUCTOR (live in class):
 #
-#   Read the code below.  Predict (in your head) what will get printed
-#   (i.e., displayed) when the code runs.
+#   Read the code below.  Predict (in your head)
+#   what will get printed (i.e., displayed) when the code runs.
 #
 #   Then run this module by right clicking anywhere in this window
 #   and then selecting:

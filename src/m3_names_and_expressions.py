@@ -2,7 +2,7 @@
 answer = 2 ** 5
 print(answer * 100)
 
-###############################################################################
+########################################################################
 # TODO: 1.
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 raised to the 5th power, yielding the object that is
@@ -17,9 +17,9 @@ print(answer * 100)
 #     ** ASKING QUESTIONS AS NEEDED. **
 #   Once you completely understand the above, run this module,
 #   confirming that it prints 3200.  Then change the above _TODO_ to DONE.
-###############################################################################
+########################################################################
 
-###############################################################################
+########################################################################
 # TODO: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
@@ -27,18 +27,18 @@ print(answer * 100)
 #     - Stores that computed value using a name of your own choosing.
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
-###############################################################################
+########################################################################
 
-###############################################################################
+########################################################################
 # TODO: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
-###############################################################################
+########################################################################
 
 
-###############################################################################
+########################################################################
 # TODO: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
@@ -46,10 +46,10 @@ print(answer * 100)
 #     - By raising 2 to the 0.5 power (using   **   for exponentiation).
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
-###############################################################################
+########################################################################
 
 
-###############################################################################
+########################################################################
 # TODO: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
@@ -88,4 +88,4 @@ print(answer * 100)
 #
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
-###############################################################################
+########################################################################
