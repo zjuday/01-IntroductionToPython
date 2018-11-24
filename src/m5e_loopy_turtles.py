@@ -11,7 +11,7 @@ Concepts include:
    -- Reference an object's  ** DATA **  by using an INSTANCE VARIABLE.
 
  * LOOPS:
-   -- Using a FOR expresssion like this:
+   -- Using a FOR expression like this:
          for k in range(41):
              blah
              blah
@@ -31,16 +31,16 @@ Concepts include:
         jill = 'ran down the hill'
         size = size - 12
 
- * The DOT trick: Type expressions like the following,
-     pausing after typing the DOT (period, full stop).
-     The window that pops up give lots of clues for what you can do!
+ * The DOT trick: If you type expressions like the following,
+     pausing after typing the DOT (period, full stop),
+     then the window that pops up give lots of clues for what you can do!
         rg.
         rg.SimpleTurtle().
         rg.Pen().
         rg.PaintBucket().
 
-Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Amanda Stouder, Aaron Wilkin, and their colleagues.
 """
 import rosegraphics as rg
 
@@ -51,10 +51,10 @@ blue_turtle.pen = rg.Pen('midnight blue', 3)
 blue_turtle.speed = 20  # Fast
 
 # The first square will be 300 x 300 pixels:
-size = 300
+size = 150
 
-# Do the indented code 13 times.  Each time draws a square.
-for k in range(13):
+# Do the indented code 6 times.  Each time draws a square.
+for k in range(6):
 
     # Put the pen down, then draw a square of the given size:
     blue_turtle.draw_square(size)

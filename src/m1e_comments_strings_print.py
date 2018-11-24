@@ -1,4 +1,4 @@
-########################################################################
+###############################################################################
 #
 #   Do this WITH YOUR INSTRUCTOR (live in class):
 #
@@ -13,14 +13,13 @@
 #   Control, Shift and Function keys down and press the F10 key.)
 #
 #   Confirm that you see the output in the  "Run"  window that appears.
-#   Confirm that the output is what you expected, asking questions
-#   as desired.
+#   Confirm that the output is what you expected, asking questions as desired.
 #
 #   This module is just an example (m1e, note the 'e').
 #   After you have read and run the code,
 #   feel free to play with it briefly, then move on to m2.
 #
-########################################################################
+###############################################################################
 
 
 print('Hello, World')

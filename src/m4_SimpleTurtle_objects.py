@@ -9,25 +9,25 @@ Concepts include:
 Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
-Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
 """
-########################################################################
+###############################################################################
 #
 # TODO: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
-#   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
+#   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
 #
 #   BTW, the top block of text above forms what is called a DOC-STRING.
 #   It documents what this module does, in a way that exterior programs
 #   can make sense of.  It has no other effect on this program.
 #
-########################################################################
+###############################################################################
 
 import rosegraphics as rg
 
-########################################################################
+###############################################################################
 #
 # TODO: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
@@ -38,28 +38,33 @@ import rosegraphics as rg
 #     then select  Mark Directory As  ~  Sources Root.
 #
 #   You will see that  rosegraphics  in the  import  statement above (line 28)
-#   is no longer marked as an error.  You will do this
-#   in all projects that use rosegraphics, so get used to it. :)
+#   is no longer marked as an error.  You will do this in all projects
+#   that use rosegraphics, so get used to it. :)
 #
 #   Once  rosegraphics  in the  import  statement is no longer marked as error,
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
-########################################################################
+###############################################################################
 
-########################################################################
+###############################################################################
 #
 # TODO: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
-#   After the Turtles stop moving, *click anywhere in the window to close it*.
+#   After the Turtles stop moving,
+#      ** click anywhere in the window to close the window **.
 #
 #   Then look at the code below.  Raise your hand when you have questions about
 #   what the code is doing.  Be sure that you understand the notations for:
+#
 #     -- CONSTRUCTING an instance of a CLASS, e.g.
 #           rg.SimpleTurtle()
+#
 #     -- ASSIGNING the resulting OBJECT (instance of a class) a NAME, e.g.
 #           natasha = rg.SimpleTurtle()
+#
 #     -- Applying a METHOD to an object to make the object DO something, e.g.
 #           natasha.forward(100)
+#
 #     -- Accessing an INSTANCE VARIABLE of an object, e.g.
 #           natasha.speed = 10
 #           boris.speed = natasha.speed
@@ -67,7 +72,7 @@ import rosegraphics as rg
 #   After you are confident that you understand all the code below,
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
-########################################################################
+###############################################################################
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -100,30 +105,29 @@ boris.forward(200)
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
 natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 10  # Faster
+natasha.speed = 5  # Bigger means faster, max is usually about 10
 
 natasha.backward(50)
 natasha.right(90)
-natasha.forward(50)
+natasha.forward(125)
 
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
-########################################################################
+###############################################################################
 #
 # TODO: 4.
-#   Add a few more lines of your own code to make one of the
-#   existing SimpleTurtles move some more and/or have different
-#   characteristics.
+#   Add a few more lines of your own code to make one of the existing
+#   SimpleTurtles move some more and/or have different characteristics.
 #
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
 #
 #   As always, test by running the module.
 #
-########################################################################
+###############################################################################
 
-########################################################################
+###############################################################################
 #
 # TODO: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
@@ -136,7 +140,7 @@ natasha.go_to(rg.Point(-100, 200))
 #      this_1_has
 #
 #   STYLE RULE: Your names should always begin with a LOWER_CASE letter.
-#   So   mary   is OK but   Mary   is NOT OK.
+#   So   mary   is OK   but   Mary   is NOT OK.
 #
 #   Then add more code that:
 #     -- Constructs a Pen object,
@@ -148,29 +152,32 @@ natasha.go_to(rg.Point(-100, 200))
 #
 #   As always, test by running the module.
 #
-########################################################################
+###############################################################################
 
-########################################################################
+###############################################################################
 #
 # TODO: 6.
-#   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
+#   Run one more time to be sure that all is still OK.
 #
 #   Then COMMIT-and-PUSH your work as before:
 #     1. Select   VCS   from the menu bar (above).
 #     2. Choose  Commit  from the pull-down menu that appears.
-#     3. In the  Commit Changes  window that pops up:
-#          - HOVER over the  Commit  button
-#              (in the lower-right corner of the window)
-#          - CLICK on  Commit and Push.
+#     3. In the  Commit Changes  window that pops up,
+#        press the   Commit and Push   button.
+#           (Note: If you see only a Commit button:
+#              - HOVER over the  Commit  button
+#                (in the lower-right corner of the window)
+#              - CLICK on  Commit and Push.)
 #
-#   You can COMMIT-and-PUSH as often as you like.  DO IT FREQUENTLY.
+#   You can COMMIT-and-PUSH as often as you like.
+#   DO IT FREQUENTLY; AT LEAST once per module.
 #
-########################################################################
+###############################################################################
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # The next line keeps the window open until the user clicks in the window.
-# Throughout this exercise, this  close_on_mouse_click   line should be the
-# LAST line in the file.  DO NOT ADD CODE BELOW THIS LINE!
-# ----------------------------------------------------------------------
+# Throughout this exercise, this  close_on_mouse_click   line
+# should be the LAST line in the file.  DO NOT ADD CODE BELOW THIS LINE!
+# -----------------------------------------------------------------------------
 window.close_on_mouse_click()

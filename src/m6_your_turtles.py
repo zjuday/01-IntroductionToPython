@@ -1,8 +1,8 @@
 """
 Your chance to explore Loops and Turtles!
 
-Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
 """
 ########################################################################
 # TODO: 1.
@@ -26,4 +26,5 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #   fixing them at either this session OR at the NEXT session.
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
+#
 ########################################################################
