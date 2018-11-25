@@ -44,8 +44,14 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """
 import rosegraphics as rg
 
+###############################################################################
+# One window, for two examples.
+###############################################################################
 window = rg.TurtleWindow()
 
+###############################################################################
+# Example 1.
+###############################################################################
 blue_turtle = rg.SimpleTurtle('turtle')
 blue_turtle.pen = rg.Pen('midnight blue', 3)
 blue_turtle.speed = 20  # Fast
@@ -70,5 +76,19 @@ for k in range(6):
     # Make the size for the NEXT square be 12 pixels smaller.
     blue_turtle.pen_down()
     size = size - 12
+
+###############################################################################
+# Example 2.  It shows how to speed up the animation.
+###############################################################################
+window.tracer(100)  # Bigger numbers make the animation run faster
+
+another_turtle = rg.SimpleTurtle('triangle')
+another_turtle.pen = rg.Pen('magenta', 1)
+another_turtle.backward(50)
+
+# The name k takes on the values 0, 1, 2, ... 499 as the loop runs
+for k in range(500):
+    another_turtle.left(91)
+    another_turtle.forward(k)
 
 window.close_on_mouse_click()
